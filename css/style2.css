@@ -15,8 +15,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Jersey 10", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
     background-color: #291720;
 }
@@ -86,33 +85,8 @@ main{
     background-color: #c4c4c4;
 }
 
-#lesbicas{
-    align-content: center;
-    text-align: center;
-    font-family: "Nabla", sans-serif;
-    font-size: 35px;
-}
-
-#lesbicas img{
-    width: 10%;
-    height: 10%;
-    object-fit: contain;
-    position: absolute;
-    left: 570px;
-    transform: scaleX(-1);
-}
-
 #mais_claro{
     background-color: #e4e4e4;
-    align-content: center;
-}
-
-#mais_claro p{
-    margin-left: 20px;
-    width: 90%;
-    text-align: justify;
-    font-family:fantasy;
-    font-size: small;
 }
 
 #abaixo{
@@ -134,9 +108,6 @@ main{
 #tetas{
     width: 340px;
     height: 98px;
-    align-content: center;
-    text-align: center;
-    font-family: "Sixtyfour Convergence", sans-serif;
 }
 
 #bryan{
@@ -154,50 +125,6 @@ main{
     width: 279px;
     height: 298px;
     border: 2px solid #919191;
-}
-
-#dni{
-    margin-top: 5px;
-    margin-bottom: 8px;
-    margin-right: 5px;
-    text-align: end;
-    text-decoration: underline;
-    font-family: "Micro 5", sans-serif;
-    font-size: 28px;
-}
-
-#direita ul{
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-family: "Micro 5", sans-serif;
-    font-size: 20px;
-}
-
-#byf{
-    margin-top: 0;
-    margin-bottom: 8px;
-    margin-left: 5px;
-    text-decoration: underline;
-    font-family: "Micro 5", sans-serif;
-    font-size: 28px;
-    
-}
-
-#lesbotron{
-    margin-top: 0;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-align: justify;
-    font-family: "Micro 5", sans-serif;
-    font-size: 20px;
-}
-
-#direita img{
-    width: 9%;
-    position: absolute;
-    right: 438px;
-    top: 570px;
-
 }
 
 #socials{
