@@ -1,0 +1,151 @@
+body{    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e62121;
+}
+
+#cabecalho{
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #291720;
+}
+
+.botoes{
+    display: flex;
+    gap: 4px;
+}
+
+.caixa{
+    width: 12px;
+    height: 12px;
+    border: 0.5px solid #655c5e;
+    background-color: #b8b9b2;
+}
+
+#barra_de_ferramentas{
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    border-bottom: 1px solid #919191;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+main{
+    width: 620px;
+    height: 1300px;
+    /* padding: 5px 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c4;
+}
+
+#acima{
+    display: flex;
+}
+
+#lesbians{
+    width: 230px;
+    height: 230px;
+    border: 1px solid #919191;
+    margin: 0;
+}
+
+#lesbians img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caixa_de_texto{
+    width: 383px;
+    height: 110px;
+    border: 3px solid #919191;
+    background-color: #c4c4c4;
+}
+
+#mais_claro{
+    background-color: #e4e4e4;
+}
+
+#abaixo{
+    width: 619px;
+    height: 300px;
+    display: flex;
+    border: 1px solid #919191;
+    background-color: #c4c4c4;
+}
+
+#esquerda{
+    width: 340px;
+    height: 298px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #919191;
+}
+
+#tetas{
+    width: 340px;
+    height: 98px;
+}
+
+#bryan{
+    width: 340px;
+    height: 200px;
+}
+
+#bryan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#direita{
+    width: 279px;
+    height: 298px;
+    border: 2px solid #919191;
+}
+
+#socials{
+    width: 616px;
+    height: 350px;
+    border: 2px solid #919191;
+    background-color: #5C6B73;
+}
+
+#mensagem{
+    width: 616px;
+    height: 720px;
+    border: 2px solid #919191;
+}
+
+footer{
+    width: 620px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 0.5px solid #f6a3a5;
+    border-right: 0.5px solid #f6a3a5;
+    background-color: #291720;
+}

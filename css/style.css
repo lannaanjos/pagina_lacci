@@ -1,0 +1,313 @@
+body{    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e62121;
+}
+
+#cabecalho{
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #291720;
+}
+
+.botoes{
+    display: flex;
+    gap: 4px;
+}
+
+.caixa{
+    width: 12px;
+    height: 12px;
+    border: 0.5px solid #655c5e;
+    background-color: #b8b9b2;
+}
+
+#barra_de_ferramentas{
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    border-bottom: 1px solid #919191;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4c4c4;
+}
+
+main{
+    width: 620px;
+    height: 1300px;
+    /* padding: 5px 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 0.5px solid #f6a3a5;
+    border-left: 0.5px solid #f6a3a5;
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c4;
+}
+
+#acima{
+    display: flex;
+}
+
+#lesbians{
+    width: 230px;
+    height: 230px;
+    border: 1px solid #919191;
+    margin: 0;
+}
+
+#lesbians img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caixa_de_texto{
+    width: 383px;
+    height: 110px;
+    border: 3px solid #919191;
+    background-color: #c4c4c4;
+}
+
+#lesbicas{
+    align-content: center;
+    text-align: center;
+    font-family: "Nabla", sans-serif;
+    font-size: 35px;
+}
+
+#lesbicas img{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+    position: absolute;
+    left: 570px;
+    transform: scaleX(-1);
+}
+
+#mais_claro{
+    background-color: #e4e4e4;
+    align-content: center;
+}
+
+#mais_claro p{
+    margin-left: 20px;
+    width: 90%;
+    text-align: justify;
+    font-family:fantasy;
+    font-size: small;
+}
+
+#abaixo{
+    width: 619px;
+    height: 300px;
+    display: flex;
+    border: 1px solid #919191;
+    background-color: #c4c4c4;
+}
+
+#esquerda{
+    width: 340px;
+    height: 298px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #919191;
+}
+
+#tetas{
+    width: 340px;
+    height: 98px;
+    align-content: center;
+    text-align: center;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+#bryan{
+    width: 340px;
+    height: 200px;
+}
+
+#bryan img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#direita{
+    width: 279px;
+    height: 298px;
+    border: 2px solid #919191;
+}
+
+#dni{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    text-align: end;
+    text-decoration: underline;
+    font-family: "Micro 5", sans-serif;
+    font-size: 28px;
+}
+
+#direita ul{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: "Micro 5", sans-serif;
+    font-size: 20px;
+}
+
+#byf{
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    text-decoration: underline;
+    font-family: "Micro 5", sans-serif;
+    font-size: 28px;
+    
+}
+
+#lesbotron{
+    margin-top: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: justify;
+    font-family: "Micro 5", sans-serif;
+    font-size: 20px;
+}
+
+#direita img{
+    width: 9%;
+    position: absolute;
+    right: 438px;
+    top: 570px;
+
+}
+
+#socials{
+    width: 616px;
+    height: 300px;
+    border: 2px solid #919191;
+    background-color: #5C6B73;
+}
+
+.caixa_socials{
+    width: 150px;
+    height: 45px;
+    border: 2px solid #91919191;
+    background-color: #b8b9b2;
+    text-align: center;
+    align-content: center;
+    font-family: "Micro 5", sans-serif;
+    font-size: 24px;
+}
+
+#socials img{
+    width: 200px;
+}
+
+#twitter{
+    position: relative;
+    top: 16%;
+    left: 14%;
+    margin-top: 0;
+}
+
+#pinterest{
+    position: relative;
+    top: 38%;
+    left: 6%;
+    margin-top: 0;
+}
+
+#emem{
+    position: relative;
+    top: -8%;
+    left: 35%;
+}
+
+#lastfm{
+    position: relative;
+    top: -80%;
+    left: 70%;
+}
+
+#letterboxd{
+    position: relative;
+    top: -50%;
+    left: 66%;
+}
+
+#socials a{
+    text-decoration: none;
+}
+
+#mensagem{
+    width: 616px;
+    height: 720px;
+    border: 2px solid #919191;
+    text-align: center;
+    align-content: center;
+    font-family: fantasy;
+}
+
+#caixota{
+    width: 250px;
+    height: 300px;
+    padding-top: 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+#botao{
+    /* width: 50px;
+    height: 30px;
+    cursor: pointer; */
+
+    background-color: #655c5e; /* Cor do botão */
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #291720;
+    border-radius: -3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Micro 5", sans-serif;
+}
+
+#botao:hover{
+    background-color: #291720;
+}
+
+footer{
+    width: 620px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 0.5px solid #f6a3a5;
+    border-right: 0.5px solid #f6a3a5;
+    background-color: #291720;
+    text-align: center;
+    align-content:center;
+    color: #e4e4e4;
+    font-size: 10px;
+}
+
+#contato{
+    font-size: 12px;
+}
